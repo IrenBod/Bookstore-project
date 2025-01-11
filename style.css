@@ -1,0 +1,276 @@
+:root {
+    --noir-transparent: rgba(29, 27, 32, 0.8);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('images/fonds/Fonddecran.png');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between; /* Разделяет группы элементов */
+    align-items: center; /* Выравнивает элементы по вертикали */
+    padding: 20px 20px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-bg {
+    width: 120px;
+    height: 90px;
+    background: linear-gradient(135deg, rgb(227, 186, 142, 0.8), rgb(200, 160, 120, 0.8));
+    border: 2px solid rgba(80, 50, 20, 0.8);
+    border-radius: 60px / 45px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: visible;
+}
+
+.logo-bg img {
+    width: 130px;
+    position: relative;
+    transform: translateY(-3mm);
+    object-fit: contain;
+}
+
+nav.buttons {
+    display: flex;
+    gap: 15px;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.nav-buttons a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    padding: 10px 10px;
+    background-color: var(--noir-transparent);
+    border-radius: 50px;
+    transition: transform 0.3s ease, color 0.3s ease;
+    width: 80px;
+    margin: 3px;
+    text-align: center;
+}
+
+.nav-buttons a:hover {
+    transform: scale(1.1);
+    color: #C19A6B
+}
+
+.user-actions {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.user-actions a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    width: 60px;
+    height: 60px;
+    background-color: var(--noir-transparent);
+    border-radius: 50px;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.user-actions a:hover {
+    transform: scale(1.1);
+    color: #C19A6B
+}
+
+.cart {
+    position: relative;
+    overflow: hidden;
+}
+
+.cart img {
+    width: 55%;
+    height: auto;
+    position: absolute;
+    object-fit: contain;
+}
+
+.login {
+    text-align: center;
+    font-size: 1rem;
+    color: white;
+  }
+
+  .login:hover {
+    transform: scale(1.1);
+    color: #C19A6B;
+  }
+
+
+/* Main */
+main {
+    flex: 1;
+    padding: 20px;
+
+    main {
+      display: flex;
+       flex-direction: column; /* Расположение элементов вертикально */
+       justify-content: flex-start; /* Элементы начинают сверху */
+       align-items: center; /* Центрируем название и девиз */
+       min-height: 100vh; /* Высота экрана */
+       padding-top: 100px; /* Отступ сверху */
+       gap: clamp(20px, 4vw, 40px); /* Адаптивное расстояние между элементами */
+    }
+    
+      
+    .main-title, .main-slogan {
+      font-family: "Algerian", serif;
+      color: white;
+      background-color: var(--noir-transparent);
+      text-align: center;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+      margin: 0 auto;
+    }
+    
+    .main-title {
+      font-size: clamp(1.5rem, 5vw, 3.5rem);
+      padding: 0px 30px; /* Увеличиваем внутренние отступы для ширины */
+      max-width: fit-content; /* Увеличиваем максимальную ширину */
+      margin-bottom: 15px; /* Уменьшаем расстояние до девиза */
+      border-radius: 10px;
+    }
+    
+    .main-slogan {
+      font-size: clamp(1rem, 3vw, 1.5rem);
+      padding: 5px 15px; /* Увеличиваем внутренние отступы для ширины */
+      max-width: fit-content; /* Увеличиваем максимальную ширину */
+      border-radius: 10px;
+    }
+    
+      /* Каталог жанров */
+/* Каталог жанров */
+.catalogue {
+  width: clamp(150px, 12%, 240px); /* Адаптивная ширина */
+  background-color: var(--noir-transparent); /* Цвет подложки */
+  padding: clamp(10px, 2vw, 20px); /* Внутренние отступы */
+  border-radius: 10px; /* Скругление углов */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Тень */
+  position: relative; /* Позиционирование относительно родителя */
+  align-self: flex-start; /* Подложка остаётся слева */
+  margin-top: -130px; /* Поднимаем каталог ближе к названию */
+}
+
+  
+  
+  /* Заголовок каталога */
+  .catalogue h2 {
+    font-family: "Algerian", serif;
+    font-size: clamp(1rem, 2vw, 1.5rem); /* Адаптивный размер текста */
+    color: white;
+    text-align: center;
+    margin-bottom: clamp(10px, 1.5vw, 15px); /* Адаптивный отступ */
+  }
+  
+  /* Список жанров */
+  .catalogue ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .catalogue ul li {
+    margin-bottom: clamp(5px, 1vw, 10px); /* Адаптивное расстояние между пунктами */
+  }
+  
+  .catalogue ul li a {
+    font-family: Arial, sans-serif;
+    font-size: clamp(0.9rem, 1.5vw, 1.2rem); /* Адаптивный размер текста */
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .catalogue ul li a:hover {
+    color: #C19A6B; /* Цвет текста при наведении */
+  }
+  
+  /* Most Popular и Sales % */
+  .catalogue .special-links {
+    font-family: Arial, sans-serif;
+    font-size: clamp(0.8rem, 1vw, 1rem); /* Адаптивный размер текста */
+    color: white;
+    text-align: center;
+    margin-top: clamp(5px, 1vw, 10px);
+    text-decoration: none;
+    display: block; /* Расположение вертикально */
+  }
+  
+  .catalogue .special-links:hover {
+    color: #C19A6B; /* Цвет текста при наведении */
+  }
+  
+  
+      
+      
+}
+/* Footer */
+footer {
+  padding: 20px 0; /* Отступы сверху и снизу */
+  text-align: center; /* Центрируем содержимое */
+}
+
+.footer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px; /* Расстояние между "Follow Us" и кнопками соцсетей */
+}
+
+.footer-title {
+  font-family: "Algerian", serif;
+  font-size: clamp(1rem, 1.5vw, 1.2rem); /* Размер текста */
+  background-color: var(--noir-transparent); /* Цвет подложки */
+  color: white;
+  padding: 10px 20px; /* Отступы внутри */
+  border-radius: 20px; /* Закругление углов */
+  text-align: center; /* Выравнивание текста */
+}
+
+.social-icons {
+  display: flex;
+  gap: 15px; /* Расстояние между элементами */
+  align-items: center; /* Выравниваем кнопки соцсетей */
+}
+
+.social-icons a img {
+  width: 40px; /* Размер иконок */
+  height: 40px;
+  background-color: var(--noir-transparent);
+  border-radius: 50%;
+  padding: 5px;
+  transition: transform 0.3s ease;
+}
+
+.social-icons a:hover img {
+  transform: scale(1.1);
+  background-color: #C19A6B;
+}
