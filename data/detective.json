@@ -1,0 +1,50 @@
+[
+    {
+      "id": 1,
+      "title": "And Then There Were None",
+      "author": "Agatha Christie",
+      "price": "$22",
+      "description": "Ten people, each with something to hide and something to fear, are invited to an isolated mansion on Indian Island by a host who, surprisingly, fails to appear. On the island they are cut off from everything but each other and the inescapable shadows of their own past lives. One by one, the guests share the darkest secrets of their wicked pasts. And one by one, they die… Which among them is the killer and will any of them survive?",
+      "image": "../images/Detective/And_Then_There.jpg"
+    },
+    {
+      "id": 2,
+      "title": "The Hound of the Baskervilles",
+      "author": "Arthur Conan Doyle",
+      "price": "$25",
+      "description": "The summer holidays are dragging on and Harry Potter can't wait for the start of the school year. It is his fourth year at Hogwarts School of Witchcraft and Wizardry and there are spells to be learnt and (unluckily) Potions and Divination lessons to be attended. But Harry needs to be on his guard at all times - his worst enemy is preparing a terrible fate for him. With characteristic wit, fast-paced humour and marvellous emotional depth, J.K. Rowling has proved herself yet again to be a master storyteller.",
+      "image": "../images/Detective/Baskervilles.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Before i go to sleep",
+      "author": "S. J. Watson",
+      "price": "$25",
+      "description": "The novel is a psychological thriller about a woman suffering from anterograde amnesia. She wakes up every day with no knowledge of who she is and the novel follows her as she tries to reconstruct her memories from a journal she has been keeping.…",
+      "image": "../images/Detective/BeforeIgoToSleep.jpg"
+    },
+    {
+      "id": 4,
+      "title": "The Girl with the Dragon Tattoo",
+      "author": "Stieg Larsson",
+      "price": "$28",
+      "description": "Harriet Vanger, a scion of one of Sweden’s wealthiest families disappeared over forty years ago. All these years later, her aged uncle continues to seek the truth. He hires Mikael Blomkvist, a crusading journalist recently trapped by a libel conviction, to investigate. He is aided by the pierced and tattooed punk prodigy Lisbeth Salander. Together they tap into a vein of unfathomable iniquity and astonishing corruption.",
+      "image": "../images/Detective/Tatoo.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Housmaid",
+      "author": "Freida McFadden",
+      "price": "$16",
+      "description": "“Welcome to the family,” Nina Winchester says as I shake her elegant, manicured hand. I smile politely, gazing around the marble hallway. Working here is my last chance to start fresh. I can pretend to be whoever I like. But I’ll soon learn that the Winchesters’ secrets are far more dangerous than my own…",
+      "image": "../images/Detective/housemaid.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Silent Patient",
+      "author": "Alex Michaelides",
+      "price": "$20",
+      "description": "Alicia Berenson’s life is seemingly perfect. A famous painter married to an in-demand fashion photographer, she lives in a grand house with big windows overlooking a park in one of London’s most desirable areas. One evening her husband Gabriel returns home late from a fashion shoot, and Alicia shoots him five times in the face, and then never speaks another word. Theo Faber is a criminal psychotherapist who has waited a long time for the opportunity to work with Alicia. His determination to get her to talk and unravel the mystery of why she shot her husband takes him down a twisting path into his own motivations—a search for the truth that threatens to consume him....",
+      "image": "../images/Detective/silent patiant.jpg"
+    }
+  ]

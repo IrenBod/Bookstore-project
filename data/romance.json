@@ -1,0 +1,50 @@
+[
+    {
+      "id": 1,
+      "title": "Jane Eyre",
+      "author": "Charlotte Brontë",
+      "price": "$19",
+      "description": "Jane Eyre est pauvre, orpheline, pas très jolie. Pourtant, grâce à sa seule force de caractère, et sans faillir à ses principes, elle parviendra à faire sa place dans la société rigide de l’Angleterre victorienne et à trouver l’amour... Une héroïne qui surmonte les épreuves sans perdre foi en son avenir, une intrigue où se succèdent mystères et coups de théâtre, une passion amoureuse qui défie tous les obstacles : le plaisir de lire Jane Eyre est toujours aussi vif. Comme elle, on veut croire que rien n’est écrit d’avance et que la vie réserve des bonheurs imprévus.",
+      "image": "../images/Romance/Jane Eyre.jpeg"
+    },
+    {
+      "id": 2,
+      "title": "Pride and Prejudice",
+      "author": "Jane Austen",
+      "price": "$24",
+      "description": "Austen's most popular novel, the unforgettable story of Elizabeth Bennet and Mr. Darcy. Nominated as one of America's best-loved novels by PBS's The Great American Read.Set in England in the early 19th century, Pride and Prejudice tells the story of Mr and Mrs Bennet's five unmarried daughters after the rich and eligible Mr Bingley and his status-conscious friend, Mr Darcy, have moved into their neighbourhood. While Bingley takes an immediate liking to the eldest Bennet daughter, Jane, Darcy has difficulty adapting to local society and repeatedly clashes with the second-eldest Bennet daughter, Elizabeth.",
+      "image": "../images/Romance/Pride and prejudice.jpg"
+    },
+    {
+      "id": 3,
+      "title": "The thorn birds",
+      "author": "Colleen McCullough",
+      "price": "$26",
+      "description": "The Thorn Birds is a robust, romantic saga of a singular family, the Clearys. It begins in the early part of the 20th century, when Paddy Cleary moves his wife, Fiona, and their seven children to Drogheda, the vast Australian sheep station owned by his autocratic and childless older sister; and it ends more than half a century later, when the only survivor of the third generation, the brilliant actress Justine O'Neill, sets a course of life and love halfway around the world from her roots",
+      "image": "../images/Romance/The thorn birds.jpg"
+    },
+    {
+      "id": 4,
+      "title": "50 shades of grey",
+      "author": "E. L. James",
+      "price": "$28",
+      "description": "When literature student Anastasia Steele goes to interview young entrepreneur Christian Grey, she encounters a man who is beautiful, brilliant, and intimidating. The unworldly, innocent Ana is startled to realize she wants this man and, despite his enigmatic reserve, finds she is desperate to get close to him.",
+      "image": "../images/Romance/50 nuances gray.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Gone with the Wind",
+      "author": "Margaret Mitchell",
+      "price": "$16",
+      "description": "This is the tale of Scarlett O’Hara, the spoiled, manipulative daughter of a wealthy plantation owner, who arrives at young womanhood just in time to see the Civil War forever change her way of life. A sweeping story of tangled passion and courage, in the pages of Gone with the Wind, Margaret Mitchell brings to life the unforgettable characters that have captured readers for over seventy years.…",
+      "image": "../images/Romance/Go with the wind.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Love Lasts Three Years",
+      "author": "Frédéric Beigbeder",
+      "price": "$24",
+      "description": "C'est une histoire d'amour moderne et radicalement autobiographique. Le héros - un jeune homme branché et noceur - évoque ses débuts dans la vie lorsque, plein d'illusions, il épousa Diane, la plus jolie fille de sa génération. Il se souvient qu'au début de leur amour, tout était bleu ; que la tendresse succèda à l'amour dès la deuxième année de leur mariage ; que l'infidélité fut la loi de leur couple dès la troisième année. Alors, il sait que la loi du monde pourrait se formuler ainsi : l'amour dure trois ans... Tout le roman, dont le symbole est l'horloge de Beaubourg - qui marche à reculons en décomptant les secondes qui nous séparent de l'an 2000... - est une variation drôle et émouvante sur ce thème. Il faut savoir que, pendant qu'il raconte l'échec programmé de son premier mariage, le héros vit avec Delphine. Et, là encore, l'heure tourne...",
+      "image": "../images/Romance/love lasts 3 years.jpeg"
+    }
+  ]

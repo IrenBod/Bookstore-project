@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=divice-widht, initial-scale=1.0">
-  <title>Librairie of Dream</title>
-  <link rel="stylesheet" href="style.css">
+  <title>Quill & Ink</title>
+  <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
   <div class="container">
@@ -16,15 +16,16 @@
         </div>
       </div>
        <nav class="nav-buttons">
-        <a href="#">Home</a>
-        <a href="#">Contact</a>
-        <a href="#">About Us</a>
+        <a href="index.html">Home</a>
+        <a href="../html/contact.html">Contact</a>
+        <a href="../html/about.html">About Us</a>
        </nav>
        <div class="user-actions">
         <a href="#" class="cart">
-          <img src="images/Cart - Copie.png" alt="Cart Icon">
+          <img src="images/../images/Cart - Copie.png" alt="Cart Icon">
         </a>
         <a href="#" class="login">Log In</a>
+        <a href="../html/join-us.html" class="Join-Us">Join Us</a>
        </div>
        
     </header>
@@ -33,17 +34,48 @@
         <div class="main-title">The Quill & Ink</div>
         <div class="main-slogan">Discover Your Dream Today!</div>
         <aside class="catalogue">
-          <h2 class="catalogue-title">CATALOGUE</h2>
+          <div class="catalogue-title">CATALOGUE</div>
           <ul>
-            <li><a href="fiction.html">Fiction</a></li>
-            <li><a href="romance.html">Romance</a></li>
-            <li><a href="detective.html">Detective Novels</a></li>
-            <li><a href="children.html">Children's Books</a></li>
-            <li><a href="classics.html">Literary Classics</a></li>
+            <li><a href="../html/fiction.html">Fiction</a></li>
+            <li><a href="../html/romance.html">Romance</a></li>
+            <li><a href="../html/detective.html">Detective Novels</a></li>
+            <li><a href="../html/children.html">Children's Books</a></li>
+            <li><a href="../html/classics.html">Literary Classics</a></li>
           </ul>
           <a href="most-popular.html" class="special-links">Most Popular</a>
           <a href="sales.html" class="special-links">Sales %</a>
         </aside>
+        
+        <aside class="filters-sidebar">
+          <h2>Search & Filter</h2>
+          
+          <!-- Поле для поиска по названию -->
+          <input type="text" id="search-title" placeholder="Search by title...">
+          
+          <!-- Поле для поиска по автору -->
+          <input type="text" id="search-author" placeholder="Search by author...">
+          
+          <!-- Выпадающий список для фильтрации по жанру -->
+          <select id="filter-genre">
+            <option value="All">All Genres</option>
+            <option value="Fiction">Fiction</option>
+            <option value="Romance">Romance</option>
+            <option value="Children's Books">Children's Books</option>
+            <option value="Detective Novels">Detective Novels</option>
+          </select>
+          
+          <!-- Поле для фильтрации по цене -->
+          <input type="number" id="filter-price" placeholder="Max price">
+          
+          <!-- Кнопка для применения фильтров -->
+          <button id="apply-filters">Apply Filters</button>
+        </aside>
+        
+        <!-- Секция для отображения книг -->
+        <section id="books-list">
+          <!-- Список книг будет добавляться через JavaScript -->
+        </section>
+        
         
     </main>
     <footer>
@@ -53,13 +85,13 @@
           <div class="footer-title">Follow Us:</div>
           <div class="social-icons">
             <a href="https://www.facebook.com" target="_blank">
-              <img src="images/fb_logo.png" alt="Facebook">
+              <img src="../images/fb_logo.png" alt="Facebook">
             </a>
             <a href="https://www.instagram.com" target="_blank">
-              <img src="images/instagram_icon.png" alt="Instagram">
+              <img src="../images/instagram_icon.png" alt="Instagram">
             </a>
             <a href="https://www.youtube.com" target="_blank">
-              <img src="images/youtube_icon.png" alt="YouTube">
+              <img src="../images/youtube_icon.png" alt="YouTube">
             </a>
           </div>
         </div>

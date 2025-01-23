@@ -1,0 +1,51 @@
+[
+    {
+      "id": 1,
+      "title": "Dandelion Wine",
+      "author": "Ray Bradbury",
+      "price": "$15",
+      "description": "A nostalgic tale of childhood memories.. Dandelion Wine is a series of short stories loosely connected to summer occurrences, with Douglas and his family as recurring characters. ",
+      "image": "../images/Fiction/Dandelion Wine.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Fahrenheit 451",
+      "author": "Ray Bradbury",
+      "price": "$20",
+      "description": "A dystopian story about the power of books. 451 degrees Fahrenheit is the temperature at which a book catches fire and burns to the ground. In this future society, where reading, a source of questioning and reflection, is considered an anti-social act, a special corps of firemen is in charge of burning all books, the possession of which is forbidden for the collective good. Montag, the pyromaniac fireman, nevertheless begins to dream of a different world, one that does not banish literature and the imaginary in favor of immediate consumable happiness. He becomes a dangerous criminal, ruthlessly pursued by a society that disavows its past. Translated with DeepL.com (free version)",
+      "image": "../images/Fiction/Fahrenheit 451.jpeg"
+    },
+    {
+      "id": 3,
+      "title": "Pet Sematary",
+      "author": "Stephen King",
+      "price": "$25",
+      "description": "A chilling tale of life and death.\nWhen Dr. Louis Creed takes a new job and moves his family to the idyllic rural town of Ludlow, Maine, this new beginning seems too good to be true. Despite Ludlow’s tranquility, an undercurrent of danger exists here. Those trucks on the road outside the Creed’s beautiful old home travel by just a little too quickly, for one thing…as is evidenced by the makeshift graveyard in the nearby woods where generations of children have buried their beloved pets. Then there are the warnings to Louis both real and from the depths of his nightmares that he should not venture beyond the borders of this little graveyard where another burial ground lures with seductive promises and ungodly temptations. A blood-chilling truth is hidden there—one more terrifying than death itself, and hideously more powerful. As Louis is about to discover for himself sometimes, dead is better…",
+      "image": "../images/Fiction/Pet Sematary.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Solaris",
+      "author": "Stanislaw Lem",
+      "price": "$18",
+      "description": "A scientific team lands on Solaris, an uninhabited world revolving around two suns. The immense protoplasmic ocean that completely covers the planet has remained an irritating mystery for centuries. Upon arrival, Dr. Kelvin is intrigued by the behavior of physicist Sartorius and cybernetician Snaut, who seem terrorized by the visit of a woman, Harey; a woman Kelvin once loved and who committed suicide several years earlier. Impossible... Unless an intelligent entity is trying to make contact with them by materializing their most secret fantasies, and the key to this world-sized enigma lies in the ocean itself. A masterful interrogation of the possibilities of communication with radically different intelligences, on a par with Arthur C. Clarke's Rendezvous with Rama, Solaris is one of the cornerstones of science fiction. Solaris was brought to the screen in 1971 by Andrei Tarkovsky..",
+      "image": "../images/Fiction/Solaris.jpg"
+    },
+    {
+      "id": 5,
+      "title": "The Door into Summer",
+      "author": "Robert A. Heinlein",
+      "price": "$22",
+      "description": "Electronics engineer Dan Davis has finally made the invention of a lifetime: a household robot with extraordinary abilities, destined to dramatically change the landscape of everyday routine. Then, Dan was tricked by an unscrupulous greedy business partner and a greedier fiancee into spending thirty years in suspended animation, the long sleep, just when he was on the verge of a success beyond his wildest dreams. They never imagine that the future time in which Dan, a modern-day and future-time, Rip Van Winkle, will awaken has mastered time travel, giving him a way to get back to them, and at them, and get his revenge!..",
+      "image": "../images/Fiction/The Door into Summer.jpg"
+    },
+    {
+      "id": 6,
+      "title": "The Fellowship of the Ring",
+      "author": "J.R.R. Tolkien",
+      "price": "$30",
+      "description": "In ancient times the Rings of Power were crafted by the Elven-smiths, and Sauron, the Dark Lord, forged the One Ring, filling it with his own power so that he could rule all others. But the One Ring was taken from him, and though he sought it throughout Middle-earth, it remained lost to him. After many ages it fell into the hands of Bilbo Baggins, as told in The Hobbit. In a sleepy village in the Shire, young Frodo Baggins finds himself faced with an immense task, as his elderly cousin Bilbo entrusts the Ring to his care. Frodo must leave his home and make a perilous journey across Middle-earth to the Cracks of Doom, there to destroy the Ring and foil the Dark Lord in his evil purpose..",
+      "image": "../images/Fiction/The Fellowship of the Ring.jpg"
+    }
+  ]
+  

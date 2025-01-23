@@ -1,0 +1,50 @@
+[
+    {
+      "id": 1,
+      "title": "The Financier",
+      "author": "Theodore Dreiser",
+      "price": "$22",
+      "description": "The first in a ''trilogy of desire,'' The Financier tells the story of the ruthlessly dominating broker Frank Cowperwood as he climbs the ladder of success, his adoring mistress championing his every move. Based on the life of financier C. T. Yerkes, Dreiser's cutting portrayal of the corrupt magnate Cowperwood illustrates the idea that wealth is often obtained by less than reputable means.",
+      "image": "../images/Classics/Financier.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Hamlet",
+      "author": "William Shakespeare",
+      "price": "$25",
+      "description": "La Tragique histoire d'Hamlet, prince de Danemark, plus couramment désigné sous le titre abrégé Hamlet, est la plus longue et l'une des plus célèbres pièces de William Shakespeare.",
+      "image": "../images/Classics/hamlet.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Madame Bovary",
+      "author": "Gustave Flaubert",
+      "price": "$23",
+      "description": "Madame Bovary is the debut novel of French writer Gustave Flaubert, published in 1856. The character lives beyond her means in order to escape the banalities and emptiness of provincial life. When the novel was first serialized in La Revue de Paris between 1 October 1856 and 15 December 1856, public prosecutors attacked the novel for obscenity. The resulting trial in January 1857 made the story notorious. After Flaubert's acquittal on 7 February 1857, Madame Bovary became a bestseller in April 1857 when it was published in two volumes. A seminal work of literary realism, the novel is now considered Flaubert's masterpiece, and one of the most influential literary works in history.",
+      "image": "../images/Classics/Madame Bovary.jpg"
+    },
+    {
+      "id": 4,
+      "title": "One Hundred Years of Solitude",
+      "author": "Gabriel García Márquez",
+      "price": "$28",
+      "description": "The brilliant, bestselling, landmark novel that tells the story of the Buendia family, and chronicles the irreconcilable conflict between the desire for solitude and the need for love—in rich, imaginative prose that has come to define an entire genre known as - magical realism..",
+      "image": "../images/Classics/One Hundred Years of Solitude.jpg"
+    },
+    {
+      "id": 5,
+      "title": "The Miser",
+      "author": "Molière",
+      "price": "$19",
+      "description": "The Miser is the story of Harpagon, a mean-spirited old man who becomes obsessed with making money out of the marriage of his children, while The Hypochondriac, another study in obsession, is a brilliant satire on the medical profession. The School for Wives, in which an ageing domestic tyrant is foiled in his plans to marry his young ward, provoked such an outcry that Molière followed it with The School for Wives Criticized - a witty retort to those who disapproved of the play's supposed immorality. And while Don Juan is the darkest and most tragic of all the plays in this collection, it still mocks the soullessness of the skinflint with scathing irony.…",
+      "image": "../images/Classics/The Miser.jpg"
+    },
+    {
+      "id": 6,
+      "title": "War and Peace",
+      "author": "Leo Tolstoy",
+      "price": "$26",
+      "description": "War and Peace broadly focuses on Napoleon’s invasion of Russia in 1812 and follows three of the most well-known characters in literature: Pierre Bezukhov, the illegitimate son of a count who is fighting for his inheritance and yearning for spiritual fulfillment; Prince Andrei Bolkonsky, who leaves his family behind to fight in the war against Napoleon; and Natasha Rostov, the beautiful young daughter of a nobleman who intrigues both men. As Napoleon’s army invades, Tolstoy brilliantly follows characters from diverse backgrounds—peasants and nobility, civilians and soldiers—as they struggle with the problems unique to their era, their history, and their culture. And as the novel progresses, these characters transcend their specificity, becoming some of the most moving—and human—figures in world literature...",
+      "image": "../images/Classics/War and Peace.jpg"
+    }
+  ]

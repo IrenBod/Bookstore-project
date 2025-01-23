@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us - Quill & Ink</title>
+  <link rel="stylesheet" href="../css/registration.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <!-- Header content -->
+      <div class="logo">
+        <div class="logo-bg">
+          <img src="../images/plume.png" alt="Logo">
+        </div>
+      </div>
+      <nav class="nav-buttons">
+        <a href="../index.html">Home</a>
+        <a href="../html/contact.html">Contact</a>
+        <a href="../html/about.html">About Us</a>
+      </nav>
+      <div class="user-actions">
+        <a href="#" class="cart">
+          <img src="../images/Cart - Copie.png" alt="Cart Icon">
+        </a>
+        <a href="#" class="login">Log In</a>
+        <a href="../html/join-us.html" class="Join-Us">Join Us</a>
+      </div>
+    </header>
+    <main>
+      <!-- Main content for About Us page -->
+      <div class="registration-container">
+        <h1 class="registration-title">REGISTRATION</h1>
+        <p class="registration-subtitle">All fields marked with an asterisk (*) are mandatory</p>
+        <form class="registration-form">
+          <div class="form-group">
+            <label for="first-name">First Name*</label>
+            <input type="text" id="first-name" name="first-name" required>
+          </div>
+          <div class="form-group">
+            <label for="last-name">Last Name*</label>
+            <input type="text" id="last-name" name="last-name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Address mail*</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div class="form-group">
+            <label for="telephone">Telephone</label>
+            <input type="tel" id="telephone" name="telephone">
+          </div>
+          <div class="form-group">
+            <p class="password-info">
+              Your password must be at least 8 characters long and include at least one letter, one number, and one special character
+            </p>
+            <label for="password">Password*</label>
+  <div class="password-container">
+    
+    <input type="password" id="password" name="password" required>
+    <button type="button" class="toggle-password" onclick="togglePassword('password', this)">👁️</button>
+  </div>
+</div>
+<div class="form-group">
+  <label for="confirm-password">Confirm Password*</label>
+  <div class="password-container">
+    <input type="password" id="confirm-password" name="confirm-password" required>
+    <button type="button" class="toggle-password" onclick="togglePassword('confirm-password', this)">👁️</button>
+  </div>
+          <button type="submit" class="register-button">Register</button>
+        </form>
+      </div>
+
+      <aside class="catalogue">
+        <div class="catalogue-title">CATALOGUE</div>
+        <ul>
+          <li><a href="../html/fiction.html">Fiction</a></li>
+          <li><a href="../html/romance.html">Romance</a></li>
+          <li><a href="../html/detective.html">Detective Novels</a></li>
+          <li><a href="../html/children.html">Children's Books</a></li>
+          <li><a href="classics.html">Literary Classics</a></li>
+        </ul>
+        <a href="most-popular.html" class="special-links">Most Popular</a>
+        <a href="sales.html" class="special-links">Sales %</a>
+      </aside>
+      <aside class="filters-sidebar">
+        <h2>Search & Filter</h2>
+        <input type="text" id="search-title" placeholder="Search by title...">
+        <input type="text" id="search-author" placeholder="Search by author...">
+        <select id="filter-genre">
+          <option value="All">All Genres</option>
+          <option value="Fiction">Fiction</option>
+          <option value="Romance">Romance</option>
+          <option value="Children's Books">Children's Books</option>
+          <option value="Detective Novels">Detective Novels</option>
+        </select>
+        <input type="number" id="filter-price" placeholder="Max price">
+        <button id="apply-filters">Apply Filters</button>
+      </aside>
+    </main>
+    <footer>
+      <div class="footer-container">
+        <div class="footer-title">Follow Us:</div>
+        <div class="social-icons">
+          <a href="https://www.facebook.com" target="_blank">
+            <img src="../images/fb_logo.png" alt="Facebook">
+          </a>
+          <a href="https://www.instagram.com" target="_blank">
+            <img src="../images/instagram_icon.png" alt="Instagram">
+          </a>
+          <a href="https://www.youtube.com" target="_blank">
+            <img src="../images/youtube_icon.png" alt="YouTube">
+          </a>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <script src="../js/registration.js"></script>
+</body>
+</html>

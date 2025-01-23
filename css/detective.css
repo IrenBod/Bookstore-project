@@ -1,0 +1,500 @@
+:root {
+    --noir-transparent: rgba(29, 27, 32, 0.8);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('../images/fonds/detective.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between; /* Разделяет группы элементов */
+  align-items: center; /* Выравнивает элементы по вертикали */
+  padding: 10px 30px;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-bg {
+  width: 120px;
+  height: 90px;
+  background: linear-gradient(135deg, rgb(227, 186, 142, 0.8), rgb(200, 160, 120, 0.8));
+  border: 2px solid rgba(80, 50, 20, 0.8);
+  border-radius: 60px / 45px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: visible;
+}
+
+.logo-bg img {
+  width: 130px;
+  position: relative;
+  transform: translateY(-3mm);
+  object-fit: contain;
+}
+
+nav.buttons {
+  display: flex;
+  gap: 15px;
+  transition: transform 0.3s ease, color 0.3s ease;
+  margin-left: auto;
+}
+
+.nav-buttons a {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+  font-size: 1.2rem;
+  padding: 10px 10px;
+  background-color: var(--noir-transparent);
+  border-radius: 50px;
+  transition: transform 0.3s ease, color 0.3s ease;
+  width: 80px;
+  margin: 10px;
+  text-align: center;
+}
+
+.nav-buttons a:hover {
+  transform: scale(1.1);
+  color: #C19A6B
+}
+
+.user-actions {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.user-actions a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  width: 60px;
+  height: 60px;
+  background-color: var(--noir-transparent);
+  border-radius: 50px;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.user-actions a:hover {
+  transform: scale(1.1);
+  color: #C19A6B
+}
+
+.cart {
+  position: relative;
+  overflow: hidden;
+}
+
+.cart img {
+  width: 55%;
+  height: auto;
+  position: absolute;
+  object-fit: contain;
+}
+
+.login {
+  text-align: center;
+  font-size: 1rem;
+  color: white;
+}
+
+.Join-Us {
+  text-align: center;
+  font-size: 1rem;
+  color: white;
+}
+
+.login:hover {
+  transform: scale(1.1);
+  color: #C19A6B;
+}
+
+
+/* Main */
+main {
+  flex: 1;
+  padding: 20px;
+
+  main {
+    display: flex;
+     flex-direction: column; /* Расположение элементов вертикально */
+     justify-content: flex-start; /* Элементы начинают сверху */
+     align-items: center; /* Центрируем название и девиз */
+     min-height: 100vh; /* Высота экрана */
+     padding-top: 100px; /* Отступ сверху */
+     gap: clamp(20px, 4vw, 40px); /* Адаптивное расстояние между элементами */
+  }
+  
+  .books-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Две колонки для больших экранов */
+    gap: 20px;
+    justify-content: center;
+    max-width: 50%; /* Ширина контейнера */
+    margin: 50px auto; /* Центрирование контейнера */
+    padding: 20px; /* Внутренние отступы */
+    background-color: rgba(0, 0, 0, 0.5); /* Фон контейнера */
+    border-radius: 10px; /* Закругление углов */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7); /* Тень */
+  }
+  
+  .book-item {
+    display: flex; /* Расположение в строку */
+    align-items: center; /* Центрирование по вертикали */
+    padding: 5px;
+    background-color: rgba(255, 255, 255, 0.1); /* Прозрачный фон карточек */
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Тень */
+    cursor: pointer;
+    max-width: 100%; /* Максимальная ширина карточки */
+    transition: transform 0.3s ease; /* Анимация при наведении */
+  }
+  
+  .book-item:hover {
+    transform: scale(1.05); /* Лёгкое увеличение при наведении */
+  }
+  
+  .book-item img {
+    width: 50px; /* Ширина изображения */
+    height: 80px; /* Высота изображения */
+    object-fit: cover; /* Обеспечиваем корректное обрезание */
+    margin-right: 15px; /* Отступ между изображением и текстом */
+  }
+  
+  .book-info {
+    text-align: left;
+    flex-grow: 1; /* Растягиваем информацию на оставшееся место */
+  }
+  
+  .book-info h3 {
+    font-size: 1rem; /* Размер заголовка книги */
+    margin-bottom: 5px;
+  }
+  
+  .book-info p {
+    margin: 0;
+    font-size: 0.9rem; /* Размер текста */
+    color: white;
+  }
+  
+  /* Адаптивность для маленьких экранов */
+  @media (max-width: 768px) {
+    .books-container {
+      grid-template-columns: 1fr; /* Одна колонка для маленьких экранов */
+    }
+  
+    .book-item {
+      flex-direction: column; /* Расположение сверху-вниз */
+      text-align: center; /* Центрирование текста */
+    }
+  
+    .book-item img {
+      width: 60px; /* Уменьшаем ширину изображения */
+      height: 90px; /* Уменьшаем высоту изображения */
+      margin: 0 auto 10px auto; /* Центрируем изображение */
+    }
+  }
+  
+
+/* Остальные стили страницы */
+
+.modal {
+display: none; /* Скрываем по умолчанию */
+position: fixed;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+z-index: 1000; /* Высокий уровень */
+background-color: rgba(29, 27, 32, 0.95);
+border-radius: 10px;
+padding: 20px;
+width: clamp(300px, 80%, 600px); /* Ограничиваем ширину */
+max-height: 90vh; /* Ограничиваем высоту */
+overflow-y: auto; /* Прокрутка для большого контента */
+box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7);
+}
+
+.modal img {
+max-width: 90%; /* Ограничиваем ширину изображения */
+max-height: 50vh; /* Ограничиваем высоту изображения */
+margin: 0 auto; /* Центрируем изображение */
+display: block; /* Убираем inline-стиль */
+object-fit: contain; /* Обеспечиваем корректное обрезание */
+}
+
+.modal-content {
+display: flex;
+flex-direction: column; /* Контент модального окна сверху вниз */
+align-items: center;
+gap: 15px;
+}
+
+.modal .add-to-cart {
+background-color: #e6a247;
+border: none;
+border-radius: 4px;
+color: #fff;
+padding: 10px 20px;
+font-size: 1rem;
+text-transform: uppercase;
+cursor: pointer;
+transition: background-color 0.3s ease;
+}
+
+.modal .add-to-cart:hover {
+background-color: #d4943f;
+}
+
+.close-btn {
+position: absolute;
+top: 10px;
+right: 10px;
+font-size: 1.5rem;
+color: white;
+cursor: pointer;
+}
+
+.modal-overlay {
+display: none;
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background-color: rgba(0, 0, 0, 0.7);
+z-index: 999; /* Чуть ниже z-index модального окна */
+}
+
+  
+
+  .contact-us {
+    padding: clamp(5px, 1vw, 10px); /* Адаптивный внутренний отступ */
+    background-color: var(--noir-transparent);
+    border-radius: 10px;
+    max-width: clamp(250px, 40%, 800px); /* Адаптивная ширина контейнера */
+    min-width: 300px; /* Минимальная ширина */
+    margin: 15px auto; /* Центрируем контейнер */
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  .contact-title {
+    font-family: "Algerian", serif;
+    font-size: clamp(1.5rem, 3vw, 2.5rem); /* Адаптивный размер шрифта */
+    font-weight: 20;
+    color: white;
+    margin-bottom: 20px;
+  }
+  
+  .contact-item {
+    font-family: Arial, sans-serif;
+    font-size: clamp(1rem, 2vw, 1.2rem); /* Адаптивный размер шрифта */
+    color: white;
+    margin-bottom: 20px;
+    line-height: 1.3;
+  }
+  
+  .contact-item strong {
+    font-family: "Algerian", serif;
+    font-size: clamp(1.2rem, 2.5vw, 1.5rem); /* Адаптивный размер шрифта */
+    font-weight: 20;
+    color: white;
+  }
+  
+    /* Каталог жанров */
+/* Каталог жанров */
+.catalogue {
+position: absolute;
+  left: clamp(10px, 5vw, 20px); /* Адаптивный отступ справа */
+  top: 200px;
+  width: clamp(150px, 15%, 240px); /* Адаптивная ширина */
+  padding: clamp(10px, 2vw, 20px); /* Адаптивные внутренние отступы */
+  background-color: var(--noir-transparent);
+  color: white;
+  border-radius: 10px;
+}
+
+
+
+/* Заголовок каталога */
+.catalogue-title {
+  font-family: "Algerian", serif;
+  font-size: clamp(1.2rem, 2vw, 1.5rem); /* Адаптивный размер текста */
+  letter-spacing: 2px;
+  color: white;
+  text-align: center;
+  margin-bottom: clamp(10px, 1.5vw, 15px); /* Адаптивный отступ */
+}
+
+/* Список жанров */
+.catalogue ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.catalogue ul li {
+  margin-bottom: clamp(5px, 1vw, 10px); /* Адаптивное расстояние между пунктами */
+}
+
+.catalogue ul li a {
+  font-family: Arial, sans-serif;
+  font-size: clamp(0.9rem, 1.5vw, 1.2rem); /* Адаптивный размер текста */
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.catalogue ul li a:hover {
+  color: #C19A6B; /* Цвет текста при наведении */
+}
+
+/* Most Popular и Sales % */
+.catalogue .special-links {
+  font-family: Algerian, sans-serif;
+  font-size: clamp(1rem, 1vw, 1rem); /* Адаптивный размер текста */
+  color: white;
+  text-align: center;
+  margin-top: clamp(20px, 1vw, 10px);
+  text-decoration: none;
+  display: block; /* Расположение вертикально */
+}
+
+.catalogue .special-links:hover {
+  color: #C19A6B; /* Цвет текста при наведении */
+}
+
+.filters-sidebar {
+  position: absolute;
+  right: clamp(10px, 5vw, 20px); /* Адаптивный отступ справа */
+  top: 175px;
+  width: clamp(150px, 15%, 240px); /* Адаптивная ширина */
+  padding: clamp(10px, 2vw, 20px); /* Адаптивные внутренние отступы */
+  background-color: var(--noir-transparent);
+  color: white;
+  border-radius: 10px;
+}
+
+.filters-sidebar h2 {
+  font-family: "Algerian", serif;
+  font-weight: 20;
+  margin-bottom: clamp(10px, 1.5vw, 30px); /* Адаптивный отступ */
+  text-align: center;
+}
+
+.filters-sidebar input,
+.filters-sidebar select {
+  display: block;
+  width: 90%; /* Ширина элементов */
+  height: clamp(20px, 2vw, 30px); /* Адаптивная высота */
+  padding: 0 8px; /* Уменьшены внутренние отступы */
+  margin-bottom: clamp(5px, 1vw, 15px); /* Адаптивный отступ между элементами */
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-family: Arial, sans-serif;
+  color: black;
+  text-align: left;
+}
+
+.filters-sidebar button {
+  width: 90%; /* Ширина кнопки */
+  height: clamp(30px, 3vw, 40px); /* Адаптивная высота кнопки */
+  padding: 8px; /* Внутренние отступы */
+  background-color: white;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.filters-sidebar button:hover {
+  background-color: #C19A6B;
+}
+
+
+#books-list {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+#books-list div {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+}
+
+/* Footer */
+footer {
+padding: 5px 10px; /* Отступы сверху и снизу */
+text-align: center; /* Центрируем содержимое */
+}
+
+.footer-container {
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 20px; /* Расстояние между "Follow Us" и кнопками соцсетей */
+}
+
+.footer-title {
+font-family: "Algerian", serif;
+font-size: clamp(1rem, 1.5vw, 1.2rem); /* Размер текста */
+background-color: var(--noir-transparent); /* Цвет подложки */
+color: white;
+font-weight: 10;
+padding: 10px 20px; /* Отступы внутри */
+margin-bottom: 20px;
+border-radius: 20px; /* Закругление углов */
+text-align: center; /* Выравнивание текста */
+}
+
+.social-icons {
+display: flex;
+gap: 15px; /* Расстояние между элементами */
+align-items: center; /* Выравниваем кнопки соцсетей */
+margin-bottom: 20px;
+}
+
+.social-icons a img {
+width: 40px; /* Размер иконок */
+height: 40px;
+background-color: var(--noir-transparent);
+border-radius: 50%;
+padding: 5px;
+transition: transform 0.3s ease;
+}
+
+.social-icons a:hover img {
+transform: scale(1.1);
+background-color: #C19A6B;
+}

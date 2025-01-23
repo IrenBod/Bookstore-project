@@ -1,0 +1,51 @@
+[
+    {
+      "id": 1,
+      "title": "Alice's Adventures in Wonderland",
+      "author": "Lewis Carroll",
+      "price": "$18",
+      "description": "When Alice follows the White Rabbit down a rabbit hole, she finds herself in an enchanted world, filled with creatures like the Mad Hatter, the disappearing Cheshire Cat, and the Queen of Hearts. Alice quickly finds out that nothing is as it seems in the wild world of Wonderland...",
+      "image": "../images/Children/alice.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Harry Potter ant the Goblet of Fire",
+      "author": "L. K. Rowling",
+      "price": "$25",
+      "description": "The summer holidays are dragging on and Harry Potter can't wait for the start of the school year. It is his fourth year at Hogwarts School of Witchcraft and Wizardry and there are spells to be learnt and (unluckily) Potions and Divination lessons to be attended. But Harry needs to be on his guard at all times - his worst enemy is preparing a terrible fate for him. With characteristic wit, fast-paced humour and marvellous emotional depth, J.K. Rowling has proved herself yet again to be a master storyteller.",
+      "image": "../images/Children/harryfire.jpg"
+    },
+    {
+      "id": 3,
+      "title": "The Wizard of Oz",
+      "author": "L. Frank Baum",
+      "price": "$21",
+      "description": "Come along, Toto, she said. We will go to the Emerald City and ask the Great Oz how to get back to Kansas again. Swept away from her home in Kansas by a tornado, Dorothy and her dog Toto find themselves stranded in the fantastical Land of Oz. As instructed by the Good Witch of the North and the Munchkins, Dorothy sets off on the yellow brick road to try and find her way to the Emerald City and the Wizard of Oz, who can help her get home. With her companions the Scarecrow, the Tin Woodman and the Cowardly Lion, Dorothy experiences an adventure full of friendship, magic and danger. A much-loved children's classic, The Wizard of Oz continues to delight readers young and old with its enchanting tale of witches, flying monkeys and silver shoes…",
+      "image": "../images/Children/oz.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Pippi Longstocking",
+      "author": "Astrid Lindgren",
+      "price": "$16",
+      "description": "Pippi Longstocking is one of the most popular children's characters of all time and is still much loved by millions of children today. This anniversary edition of Pippi Longstocking will introduce Pippi and her adventurous spirit to a whole new generation of readers. Nine year old Pippi is an unusual and unpredictable character, she lives alone with a monkey, a horse, and no rules whatsoever! Every day is a crazy adventure with Pippi, but what else would you expect from the daughter of a swashbuckling pirate captain?!",
+      "image": "../images/Children/pippi.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Little Red Ridding Hood",
+      "author": "Charles Perrault",
+      "price": "$16",
+      "description": "Once upon a time there lived in a certain village a little country girl, the prettiest creature who was ever seen. Her mother was excessively fond of her; and her grandmother doted on her still more. This good woman had a little red riding hood made for her. It suited the girl so extremely well that everybody called her Little Red Riding Hood.",
+      "image": "../images/Children/red.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Winnie The Pooh",
+      "author": "E. H. Shepard",
+      "price": "$23",
+      "description": "Winnie-the-Pooh by A. A. Milne is a children's novel written in the early 20th century. It brings to life the adventures of a beloved bear named Winnie-the-Pooh and his friends in the Hundred Acre Wood, including the charming Christopher Robin, the timid Piglet, and the gloomy Eeyore. ",
+      "image": "../images/Children/winnie.jpg"
+    }
+  ]
+  
